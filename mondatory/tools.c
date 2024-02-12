@@ -6,12 +6,11 @@
 /*   By: aennaqad <aennaqad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/05 14:50:10 by aennaqad          #+#    #+#             */
-/*   Updated: 2024/02/10 16:37:23 by aennaqad         ###   ########.fr       */
+/*   Updated: 2024/02/12 15:15:30 by aennaqad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minitalk.h"
-#include "minitalk_bonus.h"
 #include <unistd.h>
 
 long	my_atoi(const char *str)

@@ -6,7 +6,7 @@
 /*   By: aennaqad <aennaqad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/05 14:35:20 by aennaqad          #+#    #+#             */
-/*   Updated: 2024/02/10 16:47:58 by aennaqad         ###   ########.fr       */
+/*   Updated: 2024/02/12 16:26:04 by aennaqad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ int	main(int ac, char **av)
 	int		i;
 	pid_t	pid;
 
-	if (ac != 3 || my_atoi(av[1]) <= 0)
+	if (ac != 3 || my_atoi(av[1]) == -1)
 	{
 		write(2, "Error\n", 6);
 		exit(EXIT_FAILURE);

@@ -6,11 +6,11 @@
 /*   By: aennaqad <aennaqad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/07 19:11:42 by aennaqad          #+#    #+#             */
-/*   Updated: 2024/02/10 16:51:02 by aennaqad         ###   ########.fr       */
+/*   Updated: 2024/02/12 15:16:37 by aennaqad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "minitalk.h"
+#include "minitalk_bonus.h"
 
 void	printbits_on_a(int signum, int *a, int *b)
 {
